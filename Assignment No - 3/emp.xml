@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<company>
+ <heading>Employee information</heading>
+    <employees>
+       <name>Name : Punam Sangale</name>
+        <emp_no>Emp No - 1</emp_no>
+        <contact_no>Contact No - 7666470548</contact_no>
+        <salary>Salary - 70000</salary>
+        <department>Department - IT</department>
+         <email>Email - punam1@gmail.com</email>
+    </employees>
+
+    <employees>
+        <name>Name : Prem Sangale</name>
+        <emp_no>Emp No - 2 </emp_no>
+        <contact_no>Contact No - 1234598765</contact_no>
+        <salary>Salary - 50000</salary>
+        <department>Department - IT</department>
+        <email>Email - prem27@gmail.com</email>
+    </employees>
+
+    <employees>
+        <name>Name : Nikita Sangale</name>
+        <emp_no>Emp No - 3 </emp_no>
+        <contact_no>Contact No - 1235462869</contact_no>
+        <salary>Salary - 55000</salary>
+        <department>Department - IT</department>
+        <email>Email - nikita26@gmail.com</email>
+    </employees>
+
+    <employees>
+        <name>Name - Shivani Sangale</name>
+        <emp_no>Emp No - 4 </emp_no>
+        <contact_no>Contact No - 5643678245</contact_no>
+        <salary>Salary - 45000</salary>
+        <department>Department - IT</department>
+        <email>Email - shivani1811@gmail.com</email>
+    </employees>
+</company>

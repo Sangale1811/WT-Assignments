@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inner">
+            <div class="image holder">
+                <img src="signup.jpg" width="350px" height="350px">
+            </div>
+
+            <form>
+                <h3 size="57 px" >Sign Up</h3>
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" class="form-control">
+                    <input type="text" placeholder="Last Name" class="form-control">
+                </div>
+
+                <div class="form-wrapper">
+                    <input type="text" placeholder="Email" class="form-control">
+                </div>
+
+                <div class="form-wrapper">
+                    <input type="Password" placeholder="Password" class="form-control">
+                </div>
+                
+                <div class="form-wrapper">
+                    <input type="Password" placeholder="Confirm Password" class="form-control">
+                </div>
+
+                <a href="#" class="button" onclick="myFunction()">Submit</a>
+
+                <p class="para1">By clicking the Sign Up button, you agree to our
+                    <a href="#" >Terms and Condition</a> and <a href="#">Policy Privacy</a>
+                    </p>
+
+                    <p class="para2" size="17px" >Already have an account? <a href="login.html" >Login Here</a></p>
+
+            </form>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+          location.replace('login.html')
+        }
+      </script>
+</body>
+</html>

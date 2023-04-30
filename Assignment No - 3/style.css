@@ -1,0 +1,56 @@
+company{
+	background-color: rgb(240, 240, 240);
+}
+	heading{
+	font-size: 300%;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(255, 0, 68);
+	margin-left: 20px;
+	}
+
+employees{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #DACFE5;
+	width:400px;
+	display: block;
+	margin-top: 40px;
+	padding: 13pt;
+	border: 1px solid #0D3427;
+	margin: 5px;
+	text-align: left;
+	margin-left: 28px;
+	padding-top: 20px;
+}
+name{
+	color:#0D3427;
+	font-weight: bold;
+	font-size: 125%;
+    display: block;
+	margin-bottom: 3%;
+}
+emp_no{
+	font-size: 100%;
+	color: rgb(46, 37, 37);
+	display: block;
+}
+contact_no{
+	font-size: 100%;
+	color: rgb(46, 37, 37);
+	display: block;
+}
+email{
+	font-size: 100%;
+	color: blue;
+	display: block;
+}
+salary{
+	font-size: 100%;
+	color: rgb(46, 37, 37);
+	display: block;
+}
+department{
+	font-size: 100%;
+	color: rgb(46, 37, 37);
+	display: block;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inner">
+            <div class="image holder">
+                <img src="register.jpg" width="350px" height="350px">
+            </div>
+            <form action="connection.php" method="POST">
+                <h3 size="57 px">Registration</h3>
+
+                <div class="form-group">
+                    <input type="text" name="firstname" placeholder="First Name" class="form-control">
+                    <input type="text" name="lastname" placeholder="Last Name" class="form-control">
+                </div>
+
+                <div class="form-wrapper">
+                    <input type="text" name="email" placeholder="Email" class="form-control">
+                </div>
+
+                <div class="form-wrapper">
+                    <input type="Password" name="password" placeholder="Password" class="form-control" id="pass">
+                </div>
+                <div>
+                    <input type="checkbox" onclick="myfunction()">
+                    <label>Show Password</label>
+                </div>
+                <br>
+                <div class="form-wrapper">
+                    <input type="Password" name="confirmpassword" placeholder="Confirm Password" class="form-control">
+                </div>
+
+                <button>Submit</button>
+
+                <p class="para1">By clicking the Sign Up button, you agree to our
+                    <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+                </p>
+                <p class="para2" size="17px">Already have an account? <a href="login.html">Login Here</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

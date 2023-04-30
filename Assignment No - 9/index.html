@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="registrationApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body ng-controller="registrationCtrl">
+  <div class="container">
+    <h1>Registration Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" class="form-control" name="firstName" ng-model="firstName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" class="form-control" name="lastName" ng-model="lastName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" class="form-control" name="username" ng-model="username" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" name="password" ng-model="password" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary" ng-click="register()">Register</button>
+    </form>
+  </div>
+</body>
+
+</html>
