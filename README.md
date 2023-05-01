@@ -1,2 +1,2 @@
 # WT-Assignments
-Web Technology-TE_College_Practical Assignments
+Web Technology - TE College Practical Assignments
